@@ -1,0 +1,665 @@
+@font-face {
+    font-family: 'Jenna Sue';
+    src: url('/images/jennasue-webfont.eot');
+    src: url('/images/jennasue-webfont.eot#iefix') format('embedded-opentype'),
+         url('/images/jennasue-webfont.woff') format('woff'),
+         url('/images/jennasue-webfont.ttf') format('truetype'),
+         url('/images/jennasue-webfont.svg#Jenna Sue') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+	margin: 0; padding:0;
+	background:#fbd8bc;
+}
+.image {float: left; margin: 0 25px 8px 0;
+}
+.image2 {float: right; margin: 0 0 0 30px;
+}
+.image3 {float: right; margin: 8px 0 0 30px;
+}
+a:link {
+	text-decoration: none;
+	color: #3e1c0f;
+}
+a:visited {
+	text-decoration: none;
+	color: #3e1c0f;
+}
+a:hover {
+	text-decoration: none;
+	color: #ef7700;
+}
+
+/*Titre hand rouge*/
+.titre-hand {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #c61300;
+}
+
+/*Titre hand orange*/
+.titre-hand2 {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #ef7700;
+}
+a.lientitre-hand2:link {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #ef7700;
+}
+a.lientitre-hand2:visited {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #3e1c0f;
+}
+a.lientitre-hand2:hover {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 36pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #c61300;
+}
+
+/*Sous-titre Hand rouge*/
+.soustitre-hand {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 26pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #c61300;
+}
+a.liensoustitre-hand:link {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 26pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #c61300;
+}
+a.liensoustitre-hand:visited {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 26pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #3e1c0f;
+}
+a.liensoustitre-hand:hover {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 26pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #ef7700;
+}
+
+/*Sous-titre Hand orange*/
+.soustitre-hand2 {
+	font-family: 'Jenna Sue', Arial, Helvetica, sans-serif;
+	font-size: 26pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #ef7700;
+}
+
+/*Titre rouge*/
+.titre {
+    font-family: 'Verdana', Geneva, sans-serif;
+	font-size: 22pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.6em;
+	color: #c61300;
+}
+
+/*Titre orange*/
+.titre2 {
+    font-family: 'Verdana', Geneva, sans-serif;
+	font-size: 22pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.6em;
+	color: #ef7700;
+}
+
+/*Sous-titre rouge*/
+.soustitre {
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #c61300;
+}
+
+/*Sous-titre orange*/
+.soustitre2 {
+font-family: 'Verdana', Geneva, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #ef7700;
+}
+
+/*Menu baton noir*/
+.menu {
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #3e1c0f;
+
+}
+a.lienmenu:link {
+	text-decoration: none;
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #3e1c0f;
+
+}
+a.lienmenu:visited {
+	text-decoration: none;
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #c61300;
+
+}
+a.lienmenu:hover {
+	text-decoration: none;
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #ef7700;
+
+}
+.menu2 {
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #3e1c0f;
+
+}
+a.lienmenu2:link {
+	text-decoration: none;
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #c61300;
+
+}
+a.lienmenu2:visited {
+	text-decoration: none;
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #3e1c0f;
+
+}
+a.lienmenu2:hover {
+	text-decoration: none;
+    font-family: 'Verdana', Arial, sans-serif;
+	font-size: 13pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #ef7700;
+
+}
+
+/*Puce noir*/
+.date {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	line-height: 1.3em;
+	font-style: normal;
+	font-weight: normal;
+	color: #c61300;
+}
+
+/*Puce noir*/
+.puce {
+    font-family: 'Verdana', Geneva, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+
+/*Puce rouge*/
+.puce2 {
+    font-family: 'Verdana', Geneva, sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #c61300;
+}
+
+/*Puce orange*/
+.puce3 {
+    font-family: 'Verdana', Geneva, sans-serif;
+	font-size: 9pt;
+	font-style: bold;
+	font-weight: normal;
+	color: #ef7700;
+}
+
+/*Texte noir*/
+.texte {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: normal;
+	font-weight: normal;
+	color: #3e1c0f;
+}
+a.lientexte:link {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: normal;
+	font-weight: normal;
+	color: #3e1c0f;
+}
+a.lientexte:visited {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: normal;
+	font-weight: normal;
+	color: #c61300;
+}
+a.lientexte:hover {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: normal;
+	font-weight: normal;
+	color: #ef7700;
+}
+
+/*Texte rouge*/
+.texte2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: normal;
+	font-weight: normal;
+	color: #c61300;
+}
+
+/*Texte orange*/
+.texte3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: normal;
+	font-weight: normal;
+	color: #ef7700;
+}
+
+/*Texte noir italic*/
+.texte4 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	color: #3e1c0f;
+}
+
+/*Texte rouge italic*/
+.texte5 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	color: #c61300;
+}
+a.lientexte5:link {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	color: #c61300;
+}
+a.lientexte5:visited {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	color: #c61300;
+}
+a.lientexte5:hover {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	color: #ef7700;
+}
+
+
+/*Texte orange italic*/
+.texte6 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.3em;
+	font-style: italic;
+	font-weight: normal;
+	color: #ef7700;
+}
+
+
+.footer_link1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: normal;
+	color: #3e1c0f;
+}
+a.lienfooter:link {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: normal;
+	color: #f7e8d7;
+}
+a.lienfooter:visited {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: normal;
+	color: #f7e8d7;
+}
+a.lienfooter:hover {
+	text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: normal;
+	color: #ef7700;
+}
+
+
+.footer_link2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: normal;
+	color: #c61300;
+}
+
+
+.footer_link3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: normal;
+	color: #ef7700;
+}
+
+
+.footer_link4 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.01em;
+	font-style: normal;
+	font-weight: normal;
+	color: #f7e8d7;
+}
+
+
+.top {
+font-family: 'Verdana', Geneva, sans-serif;
+	font-size: 22pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #3e1c0f;
+	text-shadow: 1.0px 1.0px 1.6px #7f362d;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#7f362d', Direction=135, Strength=1);
+}
+
+
+.lien_ref {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 6pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #fbd8bc;
+}
+
+
+
+INPUT {
+    background-color:#fbd8bc;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	border: 0px solid #c61300;
+	padding: 5px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 0 0 3px #7f362d;
+	-webkit-box-shadow: 0 0 3px #7f362d;
+	outline:none; /* Pour enlever le contour jaune lorsque l'on sélectionne un input dans Chrome */
+}
+SELECT {
+    background-color:#fbd8bc;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	border: 1px solid #c61300;
+	padding: 5px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 0 0 3px #7f362d;
+	-webkit-box-shadow: 0 0 3px #7f362d;
+	outline:none; /* Pour enlever le contour jaune lorsque l'on sélectionne un input dans Chrome */
+}
+textarea {
+    background-color:#fbd8bc;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	border: 1px solid #c61300;
+		padding: 5px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 0 0 3px #7f362d;
+	-webkit-box-shadow: 0 0 3px #7f362d;
+	outline:none; /* Pour enlever le contour jaune lorsque l'on sélectionne un input dans Chrome */
+}
+.submit {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #3e1c0f;
+	text-decoration:none;
+	cursor:pointer;
+	padding: 4px 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 0 0 3px #7f362d;
+	-webkit-box-shadow: 0 0 3px #7f362d;
+		border: 1px solid #c61300;
+	outline:none; /* Pour enlever le contour jaune lorsque l'on sélectionne un input dans Chrome */
+}
+input[type=submit],
+input[type=reset],
+a.submit{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #3e1c0f;
+	text-decoration:none;
+}
+input[type=submit]:hover,
+input[type=reset]:hover,
+a.submit:hover{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #ef7700;
+	text-decoration:none;
+}
+#page{
+	width:100%;
+	margin: 0px auto;
+	background: transparent url(/images/fond.jpg) repeat-x;
+	/* for mozilla */
+	float:left;
+}
+#header-news {
+	background:transparent url(/images/header-news.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-bio {
+	background:transparent url(/images/header-bio.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-contact {
+	background:transparent url(/images/header-contact.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-equip {
+	background:transparent url(/images/header-bio.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-groupes {
+	background:transparent url(/images/header-groupes.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-pedago {
+	background:transparent url(/images/header-pedago.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-disco {
+	background:transparent url(/images/header-bio.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-photos {
+	background:transparent url(/images/header-photos.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-video {
+	background:transparent url(/images/header-video.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#header-presse {
+	background:transparent url(/images/header-presse.jpg) no-repeat scroll center top;
+	height:470px;
+	margin:0px auto;
+	margin-top: 0;
+}
+#footer {
+	background: transparent url(/images/footer.png) no-repeat scroll center bottom;
+	margin:0px auto;
+	height:140px;
+	clear: both;
+	padding:0px;
+}
+#main{
+margin-top:450px;
+width: 950px;
+margin-right: auto;
+margin-left: auto;
+	float:center;
+}
+#accueil {
+width: 950px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 0;
+vertical-align: middle;
+height: 685px;
+}
+
+/*
+     FILE ARCHIVED ON 17:05:49 Nov 11, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:16:49 Jul 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.458
+  exclusion.robots: 0.036
+  exclusion.robots.policy: 0.026
+  esindex: 0.011
+  cdx.remote: 4.985
+  LoadShardBlock: 151.045 (3)
+  PetaboxLoader3.datanode: 172.37 (4)
+  PetaboxLoader3.resolve: 1152.66 (2)
+  load_resource: 1211.63
+*/
